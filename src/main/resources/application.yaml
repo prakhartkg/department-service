@@ -1,0 +1,12 @@
+server:
+  port: 9001
+  
+spring:
+  application:
+    name: DEPARTMENT-SERVICE
+    
+springdoc:
+  swagger-ui:
+     path: /departments/swagger-ui.html
+  api-docs:
+     path: /departments/api-docs
